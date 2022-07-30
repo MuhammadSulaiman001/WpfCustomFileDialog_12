@@ -1,7 +1,4 @@
-## How to Use
-
-Basic functionality
-
+### Features
 - Preview the file once the user select it.
 - Callbacks on dialog closing: `OnDialogClose`, `OnFileChosen`.
 - Preview-Area Positioning (Right, Bottom/[Todo](/../../issues/1)).
@@ -9,11 +6,15 @@ Basic functionality
 
 ![Demo Image](res/demo.png)
 
-**Two Steps**: 1. create preview.xaml, 2. open the dialog form C#.
+### How to Use
+
+**General Steps:**
+1. Create preview.xaml 
+2. Open the dialog form C#
+
+**Detailed Steps:**
 
 See [Sample Application](./LegacyWinExplorerWithPreviewPanel.Sample)
-
-### Step by Step implementation
 
 1. Add `LegacyWinExplorerWithPreviewPanel` project as a new reference to your WPF application.
 2. Create the preview area .xaml file.. the base class is of type `ControlAddOnBase`, for
