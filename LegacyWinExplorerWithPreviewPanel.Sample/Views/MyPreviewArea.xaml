@@ -1,0 +1,23 @@
+﻿<wpfCustomFileDialog:ControlAddOnBase
+    x:Class="LegacyWinExplorerWithPreviewPanel.Sample.Views.MyPreviewArea"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:wpfCustomFileDialog="clr-namespace:WpfCustomFileDialog;assembly=WpfCustomFileDialog"
+    Width="350" Height="500"
+    Loaded="Control_Loaded"
+    Background="#F0F0F0">
+
+    <Grid VerticalAlignment="Top"
+          MaxWidth="250"
+          Height="150"
+          Margin="-25,4,75,0">
+        <TextBlock
+            x:Name="FileText"
+            Background="Yellow"
+            TextAlignment="Center"
+            FontSize="16"
+            TextWrapping="Wrap"
+            VerticalAlignment="Stretch"
+            HorizontalAlignment="Stretch" />
+    </Grid>
+</wpfCustomFileDialog:ControlAddOnBase>
